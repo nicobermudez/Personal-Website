@@ -1,0 +1,63 @@
+body {
+  font-family: Work Sans;
+  font-size: 16px;
+  background-color: #ffffff;
+  line-height: 1.5;
+}
+header {
+  overflow: hidden;
+  width: 100%;
+  top: 0;
+  left: 0;
+  position: fixed;
+  margin: 10px 20px 20px 20px;
+}
+header h1{
+  line-height: 1.5;
+  width: 33%;
+  display: block;
+  float: left;
+  margin-top: 10px;
+}
+header div.colors{
+  width: 33%;
+  display: flex;
+  float: left;
+  justify-content: center;
+}
+header nav {
+  float: right;
+  text-align: right;
+  margin-top: 10px;
+  margin-right: 20px;
+}
+header nav a {
+  text-decoration: none;
+  padding: 0 10px 0 10px;
+  color: #274c5e;
+}
+div.colors div {
+  width: 30px;
+  height: 30px;
+  border: 2px solid rgba(255, 255,255,0.25);
+  border-radius: 50%;
+  text-align: center;
+  margin: 5px 10px 0 0;
+  transition: border 0.25s;
+}
+div.colors div.selected {
+  border: 2px solid #000000;
+}
+
+section.about {
+  font-weight: 400;
+  font-size: 32px;
+  margin: 200px 80px 0 80px;
+  color: #000000;
+}
+
+section.about a {
+  text-decoration: none;
+}
+
+
